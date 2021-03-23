@@ -7,12 +7,13 @@
  
  gcc ShellExecute_MinGW.c -o ShellExecute_MinGW.exe
  
- Author : xiaolaba
+ Author : xiaolaba, 2021-MAR-23
 
 \******************************************************************* */
 
 #include <stdio.h>	// for printf()
 //#include <stdlib.h>
+#include<conio.h>	// for getch();
 
 #include <windows.h>	// for ShellExecute() of win32 API
 #include <shellapi.h>	// for ShellExecute() of win32 API
@@ -35,8 +36,12 @@ int main()
 {
 
     printf( "open a.pdf\n" );
+	printf("Author : xiaolaba, 2021-MAR-23\n");
     openpdf ();
 
+    printf("\nSee PDF opened ?");
+    getch(); // press any key to exit
+	
     return 0;
 }
 
