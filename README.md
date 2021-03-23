@@ -7,7 +7,7 @@ win10 tested
 install MinGW, https://sourceforge.net/projects/mingw/  
 
 open terminal  
-  C:\MinGW\msys\1.0\msys.bat  
+    `C:\MinGW\msys\1.0\msys.bat`  
 
 download this code and save to c:\ShellExecute_MinGW  
 
