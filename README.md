@@ -2,7 +2,13 @@
 
 Win32 console application, call ShellExecute to open a.pdf
 
-win10 tested  
+win10 tested
+
+![擷取.JPG](擷取.JPG)  
+
+
+
+### How to:
 
 install MinGW, https://sourceforge.net/projects/mingw/  
 
