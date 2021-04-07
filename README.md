@@ -1,4 +1,4 @@
-# ShellExecute_MinG
+# ShellExecute_MinGW
 
 Win32 console application, call ShellExecute to open a.pdf
 
